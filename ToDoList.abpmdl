@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "ToDoList.Application": {
+      "path": "src/ToDoList.Application/ToDoList.Application.abppkg",
+      "folder": "src"
+    },
+    "ToDoList.Application.Tests": {
+      "path": "test/ToDoList.Application.Tests/ToDoList.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "ToDoList.Domain.Shared": {
+      "path": "src/ToDoList.Domain.Shared/ToDoList.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "ToDoList.Application.Contracts": {
+      "path": "src/ToDoList.Application.Contracts/ToDoList.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "ToDoList.HttpApi": {
+      "path": "src/ToDoList.HttpApi/ToDoList.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "ToDoList.HttpApi.Client": {
+      "path": "src/ToDoList.HttpApi.Client/ToDoList.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "ToDoList.Web": {
+      "path": "src/ToDoList.Web/ToDoList.Web.abppkg",
+      "folder": "src"
+    },
+    "ToDoList.Web.Tests": {
+      "path": "test/ToDoList.Web.Tests/ToDoList.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "ToDoList.EntityFrameworkCore.Tests": {
+      "path": "test/ToDoList.EntityFrameworkCore.Tests/ToDoList.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "ToDoList.EntityFrameworkCore": {
+      "path": "src/ToDoList.EntityFrameworkCore/ToDoList.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "ToDoList.TestBase": {
+      "path": "test/ToDoList.TestBase/ToDoList.TestBase.abppkg",
+      "folder": "test"
+    },
+    "ToDoList.Domain.Tests": {
+      "path": "test/ToDoList.Domain.Tests/ToDoList.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "ToDoList.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ToDoList.HttpApi.Client.ConsoleTestApp/ToDoList.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "ToDoList.DbMigrator": {
+      "path": "src/ToDoList.DbMigrator/ToDoList.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "ToDoList.Domain": {
+      "path": "src/ToDoList.Domain/ToDoList.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

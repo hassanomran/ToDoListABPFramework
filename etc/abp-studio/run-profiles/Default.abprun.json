@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "ToDoList.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44327",
+      "path": "../../../src/ToDoList.Web/ToDoList.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}
